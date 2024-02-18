@@ -1,7 +1,9 @@
+import {AppStyled} from './App.styled'
+
 const App = () => {
   return (
     <>
-      <div>App</div>
+      <AppStyled>App</AppStyled>
     </>
   );
 };
