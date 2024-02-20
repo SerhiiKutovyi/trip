@@ -1,13 +1,17 @@
-import { useState, useEffect } from 'react';
+// import axios from 'axios';
 
-const Test = () => {
-  const [value, setValue] = useState(0);
+// const KEY = 'W5QCCFFKYWB6UP577Z7FXLG3F';
+// axios.defaults.baseURL = 'https://weather.visualcrossing.com';
 
-  useEffect(() => {
-    console.log('Mouting phase: same when componentDidMount runs');
-  }, [value]);
+// const Test = () => {
+//   const response = axios
+//     .get(
+//       `VisualCrossingWebServices/rest/services/timeline/Kyiv?unitGroup=metric&key=${KEY}`
+//     )
+//     .then(data => console.log(data));
 
-  return <button onClick={() => setValue(value + 1)}>{value}</button>;
-};
+//   return <h2> Hello axios</h2>;
+// };
+// export default Test;
 
-export default Test;
+// https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/[location]/[date1]/[date2]?key=YOUR_API_KEY
