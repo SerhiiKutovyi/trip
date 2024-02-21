@@ -1,23 +1,4 @@
-.modal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 
-  width: 75%;
-  height: 75%;
-
-  padding: 24px;
-  background: rgba(23, 61, 51, 0.25);
-}
-
-.modalContent {
-  width: 320px;
-
-  padding: 20px;
-  border-radius: 8px;
-  background: #173d33 75%;
-}
 
 .button {
   cursor: pointer;

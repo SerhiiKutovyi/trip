@@ -1,15 +1,13 @@
-import BtnOpenModal from 'components/Button/BtnOpenModal/BtnOpenModal';
-import PageTitle from 'components/PageTitle/PageTitle';
-import SearchTrip from 'components/SearchYourTrip/SearchTrip';
-
+import Footer from 'pages/Footer/Footer';
+import Header from 'pages/Header/Header';
+import Main from 'pages/Main/Main';
 
 const App = () => {
   return (
     <>
-      <PageTitle text="Weather Forecast" />
-      <SearchTrip />
-       <BtnOpenModal/>
-     
+      <Header />
+      <Main />
+      <Footer />
     </>
   );
 };
